@@ -14,13 +14,14 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: "https://rookdb.github.io",
-  baseUrl: "/RookDB/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "RookDB", // Usually your GitHub org/user name.
-  projectName: "RookDB", // Usually your repo name.
+  url: "https://rookdb.github.io",
+  baseUrl: "/rookdb-docs/",
+
+  organizationName: "RookDB",
+  projectName: "rookdb-docs",
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -56,7 +57,7 @@ const config: Config = {
       title: "RookDB docs",
       items: [
         {
-          href: "https://github.com/RookDB/RookDB/",
+          href: "https://github.com/RookDB",
           label: "GitHub",
           position: "right",
         },
