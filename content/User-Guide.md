@@ -1,3 +1,8 @@
+---
+title: User Guide
+sidebar_position: 5
+---
+
 # User Guide
 
 ## Show Databases
