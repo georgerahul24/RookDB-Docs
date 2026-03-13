@@ -16,6 +16,7 @@ const sidebars: SidebarsConfig = {
         "storage-engine/API-Doc",
         "storage-engine/database-doc",
         "storage-engine/design-doc",
+        "storage-engine/Developer-Guide",
 
         // Projects subsection
         {
@@ -69,7 +70,6 @@ const sidebars: SidebarsConfig = {
         },
       ],
     },
-    "User-Guide",
   ],
 };
 

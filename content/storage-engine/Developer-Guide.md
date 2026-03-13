@@ -1,9 +1,9 @@
 ---
-title: User Guide
+title: Developer Guide
 sidebar_position: 5
 ---
 
-# User Guide
+# Developer Guide
 
 ## Show Databases
 
