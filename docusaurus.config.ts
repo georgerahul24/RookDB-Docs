@@ -18,7 +18,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   url: "https://rookdb.github.io",
-  baseUrl: "/rookdb-docs/",
+  baseUrl: "/docs/",
 
   organizationName: "RookDB",
   projectName: "rookdb-docs",
