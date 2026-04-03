@@ -22,5 +22,7 @@ Follow the instructions in the README of the [CLI repository](https://github.com
 * `USE db_name`;
     - Select a database.
 
+* `create table user (id INT, name TEXT);`
+    - Create a new table.
 
 

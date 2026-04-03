@@ -22,14 +22,65 @@ const sidebars: SidebarsConfig = {
         {
           type: "category",
           label: "Projects",
-          collapsed: true,
+          collapsed: false,
           items: [
-            "storage-engine/projects/indexing",
-            "storage-engine/projects/join-algorithms",
-            "storage-engine/projects/buffer-manager",
-            "storage-engine/projects/catalog-manager",
-            "storage-engine/projects/sorted-ordered-file-manager",
-            "storage-engine/projects/fsm-heap-manager",
+            // Indexing
+            {
+              type: "category",
+              label: "Indexing",
+              collapsed: true,
+              items: [
+                "storage-engine/projects/indexing/indexing",
+              ],
+            },
+            // JOIN Algorithms
+            {
+              type: "category",
+              label: "JOIN Algorithms",
+              collapsed: true,
+              items: [
+                "storage-engine/projects/join-algorithms/join-algorithms",
+              ],
+            },
+            // Buffer Manager
+            {
+              type: "category",
+              label: "Buffer Manager",
+              collapsed: true,
+              items: [
+                "storage-engine/projects/buffer-manager/buffer-manager",
+              ],
+            },
+
+            // Catalog Manager
+            {
+              type: "category",
+              label: "Catalog Manager",
+              collapsed: true,
+              items: [
+                "storage-engine/projects/catalog-manager/catalog-manager",
+              ],
+            },
+
+            // Sorting and Ordering
+            {
+              type: "category",
+              label: "Sorting and Ordering",
+              collapsed: true,
+              items: [
+                "storage-engine/projects/sorting-and-ordering/sorting-and-ordering",
+              ],
+            },
+            
+            // FSM and Heap Manager
+            {
+              type: "category",
+              label: "FSM and Heap Manager",
+              collapsed: true,
+              items: [
+                "storage-engine/projects/fsm-heap-manager/fsm-heap-manager",
+              ],
+            },
 
             // Fixed Length Data Types
             {
@@ -65,7 +116,15 @@ const sidebars: SidebarsConfig = {
               ],
             },
 
-            "storage-engine/projects/update-delete",
+            // Update and Delte
+            {
+              type: "category",
+              label: "Update and Delete",
+              collapsed: true,
+              items: [
+                "storage-engine/projects/update-delete/update-delete",
+              ],
+            },
           ],
         },
       ],
