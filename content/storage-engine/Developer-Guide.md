@@ -5,13 +5,16 @@ sidebar_position: 5
 
 # Developer Guide
 
-## Show Databases
+Follow the instructions in the README of the [RookDB/RookDB](https://github.com/RookDB/RookDB) to run the `Storage Engine`. After the system starts, the interface will display a list of available operations to choose from.
 
+**The Storage Engine currently provides the following options:**
+
+#### Show Databases
 Displays all databases available in the catalog.
 
 ---
 
-## Create Database
+#### Create Database
 
 Creates a new database and updates the catalog.
 
@@ -25,7 +28,7 @@ users
 
 ---
 
-## Select Database
+#### Select Database
 
 Sets the active database for performing operations.
 
@@ -34,13 +37,13 @@ Steps:
 
 ---
 
-## Show Tables
+#### Show Tables
 
 Displays all tables in the selected database.
 
 ---
 
-## Create Table
+#### Create Table
 
 Creates a new table with a schema.
 
@@ -66,7 +69,7 @@ name:TEXT
 
 ---
 
-## Load CSV
+#### Load CSV
 
 Loads CSV data into an existing table.
 
@@ -81,18 +84,18 @@ examples/example.csv
 
 ---
 
-## Show Tuples
+#### Show Tuples
 
 Displays tuples stored in table pages along with page metadata such as pointers and tuple count.
 
 ---
 
-## Show Table Statistics
+#### Show Table Statistics
 
 Displays storage statistics like total number of pages.
 
 ---
 
-## Exit
+#### Exit
 
 Exit from RookDB.

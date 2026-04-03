@@ -41,7 +41,7 @@ In RookDB, each table is stored as a dedicated file within the directory corresp
 
 Each table file is logically divided into two distinct regions. The first region is a fixed-size table header occupying the initial 8 KB of the file. This header stores metadata required for table management, currently stores only the total number of allocated pages. The second region consists of a sequence of fixed-size data pages, each 8 KB in size, which store tuple data along with associated slot metadata.
 
-![Logical Layout of a Table File](/assets/Table-Arch.png)
+![Logical Layout of a Table File](/assets/Table-Architecture.png)
 
 ---
 
@@ -50,9 +50,7 @@ Each table file is logically divided into two distinct regions. The first region
 The Page Layer defines the internal layout and organization of records within a fixed-size page.  
 RookDB adopts a slotted-page structure inspired by PostgreSQL, consisting of a page header, an item identifier array, and tuple data.
 
-| Page Layout | Page Header Structure |
-|-------------|-----------------------|
-| ![Page Layout](/assets/Slotted-Page.png) | ![Page Header Structure](/assets/Page-Layout.png) |
+![Logical Layout of a Page](/assets/Page-Architecture.png)
 
 ---
 
