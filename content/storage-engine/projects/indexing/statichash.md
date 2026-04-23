@@ -2,7 +2,6 @@
 title: Static Hash
 sidebar_position: 4
 ---
-## Static Hash Index – Concise Documentation (from code)
 
 ### 1. Algorithm Overview
 

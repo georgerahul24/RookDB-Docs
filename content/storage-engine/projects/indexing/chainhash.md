@@ -2,7 +2,7 @@
 title: Chain Hash
 sidebar_position: 5
 ---
-## Chained Hash Index — Code-Based Documentation
+
 
 ### Algorithm
 
