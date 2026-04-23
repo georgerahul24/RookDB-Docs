@@ -12,8 +12,8 @@ The design keeps compatibility with the existing storage stack, including page l
 
 ## Objectives
 1. Reduce lookup latency on large tables.
-2. Support exact match queries through hash and B+ tree indexes.
-3. Support range queries through B+ tree indexes.
+2. Support exact match queries through hash and tree indexes.
+3. Support range queries through tree indexes.
 4. Persist index metadata in the catalog for recovery and startup loading.
 5. Keep indexes synchronized with table inserts and deletes.
 6. Expose index lifecycle operations through the CLI.
