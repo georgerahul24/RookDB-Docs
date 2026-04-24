@@ -1,6 +1,7 @@
-# RookDB Indexing API Endpoints (Integration Reference)
-
-This document lists the important indexing-related APIs that other teams can call directly from the `storage_manager` crate, based on the current codebase.
+---
+title: API Endpoints
+sidebar_position: 13
+---
 
 ## 1. Module Import Map
 
